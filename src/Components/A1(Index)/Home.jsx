@@ -1,9 +1,14 @@
 
+import Contact from '../A3(Contacetme)/Contact';
+import Navbar from './../A2(Nav and foot)/Navbar';
+import About from './About';
 
 const Home = () => {
     return (
         <div>
-            This is about page
+          <Navbar/>
+          <About/>
+          <Contact/>
         </div>
     );
 };

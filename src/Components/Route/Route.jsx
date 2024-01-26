@@ -5,8 +5,7 @@ const myCreateRoute=createBrowserRouter([
     {
     path:'/',
     element:<Home></Home>
-    
-     }
+    }
 ])
 
 
